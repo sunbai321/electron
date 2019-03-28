@@ -3,8 +3,6 @@ const{app, BrowserWindow} = require('electron');
 // electron是Electron的模块，必须引用。该模块导出了一个app对象和一个BrowserWindow类
 // app中包含一些方法，如on方法用于将事件绑定到事件函数中
 function createWindow () {
-    var n = 20;
-    console.log(n);
     // 创建浏览器窗口
     win = new BrowserWindow({
         width:800,
